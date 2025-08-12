@@ -1,0 +1,23 @@
+package variable // := this gofer notation is only be used inside functions not at global scope
+// var is used to declare variables at global scope or inside functions
+
+func main() {
+	var age int
+	var name  = "John Doe"
+	print("Name: ", name, ", Age: ", age, "\n")
+
+	count := 10
+	lastName := "Smith"
+	print("Count: ", count, ", Last Name: ", lastName, "\n")
+
+	// default values int = 0 , string = "", bool = false
+	//  pointers, slices, maps, channels, interfaces, structs = nil
+
+	// ------ Scope ------
+
+	println(printname)
+}
+
+func printname(name string) {
+	print("Name: ", name, "\n")
+}
