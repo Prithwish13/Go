@@ -1,7 +1,7 @@
-package main
+package basics
 
 
-func main() {
+func switchIfCase() {
 	a := 29
 
 	if a >= 18 && a <= 21 {
@@ -58,5 +58,6 @@ func checkType(i interface{}) {
 		println("Boolean:", v)
 	default:
 		println("Unknown type")
+
 	}
 }
